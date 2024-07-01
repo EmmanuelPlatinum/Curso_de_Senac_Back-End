@@ -1,0 +1,40 @@
+Anotações da aula
+
+type
+Containers
+- Div
+Atributos id e class
+- d
+- Class
+Formulários HTML
+
+- Campos de entrada (<input>)
+- Rótulos (<label>)
+
+<form>
+get, post
+action
+
+
+Imput:
+
+• text: Para entrada de texto padrão.
+• password: Para campos de senha, ocultando os caracteres digitados.
+• radio: Para botões de opção.
+• checkbox: Para caixas de seleção.
+• submit: Para botões de envio que enviam o formulário.
+• file: Para upload de arquivos.
+
+
+rosa: elementos
+verde: atributos
+amarelo: valor
+branco: Texto de conteudo
+
+Elementos (Rosa): <div>, <h1>, <form>, <label>, <input>, <button>, <html>, <head>, <title>, <body>.
+Atributos (Verde): class, id, action, method, type, name, required, for.
+Valores de Atributos (Amarelo): container, cadastroForm, /submit, post, text, nome, email.
+Texto de Conteúdo (Branco): "Cadastro de Usuário", "Nome:", "Email:", "Enviar", "Limpar".
+
+
+Fazer um formulario sobre satisfação do cliente

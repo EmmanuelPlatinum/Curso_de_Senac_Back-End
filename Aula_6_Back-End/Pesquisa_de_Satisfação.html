@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação de Clientes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border: 2px solid #000;
+            padding: 20px;
+            width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            color: goldenrod;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .question {
+            margin-bottom: 10px;
+        }
+        .rating {
+            text-align: center;
+        }
+        .rating input {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Oriana</div>
+        <h1>PESQUISA DE SATISFAÇÃO DE CLIENTES</h1>
+        <div class="content">
+            <div class="section">
+                <p class="question">1. Como você avalia a qualidade do nosso atendimento?</p>
+                <div class="rating">
+                    <input type="radio" name="q1" value="1"> 1
+                    <input type="radio" name="q1" value="2"> 2
+                    <input type="radio" name="q1" value="3"> 3
+                    <input type="radio" name="q1" value="4"> 4
+                    <input type="radio" name="q1" value="5"> 5
+                </div>
+            </div>
+            <div class="section">
+                <p class="question">2. Como você avalia a qualidade do nosso produto?</p>
+                <div class="rating">
+                    <input type="radio" name="q2" value="1"> 1
+                    <input type="radio" name="q2" value="2"> 2
+                    <input type="radio" name="q2" value="3"> 3
+                    <input type="radio" name="q2" value="4"> 4
+                    <input type="radio" name="q2" value="5"> 5
+                </div>
+            </div>
+            <div class="section">
+                <p class="question">3. Você recomendaria nossa empresa para outras pessoas?</p>
+                <div class="rating">
+                    <input type="radio" name="q3" value="1"> 1
+                    <input type="radio" name="q3" value="2"> 2
+                    <input type="radio" name="q3" value="3"> 3
+                    <input type="radio" name="q3" value="4"> 4
+                    <input type="radio" name="q3" value="5"> 5
+                </div>
+            </div>
+            <div class="section">
+                <p class="question">4. Comentários adicionais:</p>
+                <textarea name="comments" rows="4" style="width: 100%;"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
