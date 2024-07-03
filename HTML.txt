@@ -1,0 +1,23 @@
+Comandos que foram estudados
+
+Comentario no html: <!---->
+
+
+Elementos (Rosa): <div>, <h1>, <form>, <label>, <input>, <button>, <html>, <head>, <title>, <body>, <img>
+Atributos (Verde): class, id, action, method, type, name, required, for, src, href.
+Valores de Atributos (Amarelo): container, cadastroForm, /submit, post, text, nome, email.
+Texto de Conteúdo (Branco): "Cadastro de Usuário", "Nome:", "Email:", "Enviar", "Limpar".
+
+
+------- Elemento h1: -------
+
+Cria um texto gigante(Paragrafo) na pagina que varia de tamanho de acordo com os numeros colocados ao lado do h
+h1- é o maior
+h2- é um pouco menor que o h1
+quanto maior o numero menor o tamanho do Paragrafo
+
+
+------- Elemento img -------
+
+Depois de ter uma imagem armazenada na mesma pasta, Ele pega essa imagem e coloca na pasta
+
