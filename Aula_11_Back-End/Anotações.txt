@@ -1,0 +1,17 @@
+bloco de codigo = escopo 
+um bloco de codigo é tudo aquilo que esta dentro de uma chave
+
+if/else if/else
+se coloca primeiro o `if` e depois se abre o parenteses e la dentro se 
+coloca a condiação
+
+
+print = console.log
+
+tipos diferentes de variaveis
+var,let,const
+
+o que e um escopo 
+
+diferença de == e ===
+
