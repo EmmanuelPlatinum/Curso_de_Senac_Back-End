@@ -1,0 +1,98 @@
+Estruturas de repetição em javascript for e while
+
+i++ e a mesma coisa que i = i + 1
+
+Anotaçoes dos testes
+
+-----Teste 1 
+
+for (var n = 0; n < 10; n++) {
+    console.log("Numero" + n + 1 )
+}
+
+saida :
+Numero01
+Numero11 
+Numero21 
+Numero31 
+Numero41 
+Numero51 
+Numero61 
+Numero91
+Numero101
+Numero111
+Numero121
+Numero131
+Numero141
+Numero151
+Numero161
+Numero171
+Numero181
+
+
+
+-----Teste 2:
+
+for (var n = 0; n < 10; n++) {
+    console.log(n + n)
+}
+
+saida: 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+
+
+
+-----Teste 3(chatgpt):
+
+// Exemplo de cálculo da soma dos números de 1 até N
+const N = 5; // Aqui você pode colocar o valor de N que deseja calcular
+let soma = 0;
+
+// Loop para somar os números de 1 até N
+for (let i = 1; i <= N; i++) {
+    soma += i;
+}
+
+// Exibindo o resultado
+console.log(`A soma dos números de 1 até ${N} é: ${soma}`);
+
+
+
+
+-----Teste 4(chatgpt):
+
+// Exemplo de cálculo da soma dos números de 1 até N com exibição passo a passo
+const N = 5; // Aqui você pode colocar o valor de N que deseja calcular
+let soma = 0;
+
+// Loop para somar os números de 1 até N e exibir a soma parcial
+for (let i = 0; i <= N; i++) {
+    soma += i;
+    if (i === 0) {
+        console.log(i);
+    } else {
+        console.log(`${i}+${i} = ${soma}`);
+    }
+ 
+saida:
+0
+1+1 = 1
+2+2 = 3
+3+3 = 6
+4+4 = 10
+5+5 = 15
+
+
+
+-----Teste 5:
+
+
