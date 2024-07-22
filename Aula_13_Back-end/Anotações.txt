@@ -1,0 +1,49 @@
+Ideia: uma forma de aquecer o conteudo dado pelo professor 
+Refazer os exemplos da aula, incluindo e testando novas formas de cof
+
+Function:)
+    Conceito:]
+    Rceita que você pode usar várias vezes para fazer a mesma coisa
+
+    Ela é um bloco de código que você escreve uma vez e pode chamar 
+    sempre que precisar executar aquele código específico.
+
+
+Function e a mesma coisa que =>
+Arrow Function (  =>  ) e uma outra forma de declarar a function 
+return
+
+
+funcion difine as variaveis
+return define o que vai ser feito com as variaveis
+
+
+Objetos e propriedades:)
+
+
+objeto e propriedade
+
+
+Métodos:
+quando dentro de um objeto eu atribuo uma function a uma variavel
+
+Objetos aninhados:
+objetos dentro de objetos
+propriedades dentro de propriedades
+
+
+
+Json:
+usado para transmitir dados em javascript
+
+
+
+
+
+Resumo da aula:
+
+1)Funções
+2)Objetos e Propriedades
+3)Metodos
+4)Ojetos aninhados 
+5)Json
