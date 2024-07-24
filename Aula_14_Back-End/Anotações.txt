@@ -1,0 +1,4 @@
+explicação do que é DOM
+dom e o html que esta sendo utilizado no java
+
+elementos.metodos();
