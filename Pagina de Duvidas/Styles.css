@@ -1,0 +1,40 @@
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.faq-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+    color: #555;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 500px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
