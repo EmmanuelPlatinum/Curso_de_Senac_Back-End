@@ -1,84 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dúvidas Gerais</title>
+    <title>FAQ Accordion</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="Styles.css">
 </head>
-<body style="background-color: #30323D;">
+<body>
 
-    <a href="https://web.whatsapp.com/send?phone=5565992502060" class="whatsapp-button" target="_blank">
-        <img src="whatsapp_icon-removebg-preview.png" alt="">
-    </a>
+    <br><h1>Central de Ajuda</h1><br>
+
+
+    <h3>Sobre a Central Baterias</h3><br><br>
+
+    <div class="container">
+        <div class="wrapper">
+            <button class="toggle">
+                Quem somos nos?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão...</p>
+            </div>
+        </div>
+
+
+        <div class="wrapper">
+            <button class="toggle">
+                Quais serviços oferecemos?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão...</p>
+            </div>
+        </div>
+
+
+        <div class="wrapper">
+            <button class="toggle">
+                Com quais marcas de baterias trabalhamos?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão...</p>
+            </div>
+        </div><br><br>
+
+            <h3>Nossos Serviços: </h3>
+
+        <div class="wrapper">
+            <button class="toggle">
+                Como posso agendar um Serviço?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <button class="toggle">
+                Qual é o horario de funcionamento da loja?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+        </div><br><br>
+        
+        <h3>Contato: </h3><br>
+
+        <div class="wrapper">
+            <button class="toggle">
+                Onde nos encontrar?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <button class="toggle">
+                Como entrar em contato?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <button class="toggle">
+                PO onde posso avaliar o serviço da Central Baterias?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+        </div>
+
+
+        <h3>Tem alguma dúvida ou precisa de mais informações? Nossa equipe está pronta para ajudá-lo! Clique abaixo para entrar em contato pelo WhatsApp.</h3>
+
+        
+
+    </div>
+
+    <!-- Script -->
+    <script src="Main.js"></script>
 </body>
-
-<main>
-        <section id="faq">
-            <h1>Dúvidas Gerais</h1><br>
-
-<h2>Sobre a Central Baterias:</h2><br>
-
-            <div class="faq-item">
-                <h3>Quem somos nós?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 1</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Quais serviços oferecemos?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 2</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Quais marcas de baterias trabalhamos?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div><br><br>
-
-            <h2>Nossos Serviços:</h2><br>
-
-            <div class="faq-item">
-                <h3>Como posso agendar um serviço?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Qual é o horário de funcionamento da loja?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div><br><br>
-
-            <h2>Contato:</h2><br>
-
-            <div class="faq-item">
-                <h3>Onde nos encontrar?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Como entrar em contato?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Por onde posso avaliar o serviço da Central Baterias?</h3>
-                <p class="faq-answer" style="display: none;">
-                    finge que tem uma resposta aqui 3
-                </p>
-            </div>
-
-
-        </section>
-        <script src="Main.js"></script>
-    </main>
 </html>

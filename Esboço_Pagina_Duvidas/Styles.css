@@ -1,6 +1,3 @@
-*,
-*::before,
-*:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,48 +9,141 @@ body{
     width: 45%;
     min-width: 500px;
     border: lpx solid white;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;   
+
+body {
+    background-color: #0D153D; /* Cor de fundo da página */
+    font-family: 'Poppins', sans-serif;
+    color: #000000; /* Cor do texto geral, incluindo "Nossa equipe está pronta para ajudá-lo!" */
+    line-height: 1.6;
 }
 
-.css-selector {
-    font-family: 'font name', serif;
+/* Central de Ajuda - Layout */
+.faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo da seção de FAQ */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.wrapper{
-    background-color: brown;
+
+.faq-header h1 {
+    text-align: center;
+    color: #14eb2d; /* Cor do título "Central de Ajuda" */
     margin-bottom: 20px;
-    padding: 15px 40px;
+}
+
+.faq-category h2 {
+    color: #f1e9da; /* Cor dos subtítulos das categorias */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f1e9da; /* Cor das linhas abaixo dos subtítulos */
+    padding-bottom: 5px;
+}
+
+/* FAQ Accordion Styles */
+.wrapper {
+    background-color: #f0a202; /* Cor de fundo das caixas de texto (Accordion) */
+    margin-bottom: 15px;
+    padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 15px 25px rgba(0,0,50,0.2 );
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
 }
-.toggle,
-.content{
-    font-family: "Poppins",sans-serif ;
-}
-.toggle{
+
+.toggle {
     width: 100%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
-    color: black;
+    color: #0248f7; /* Cor inicial do texto dos botões do Accordion */
     font-weight: 500;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 15px 0;
+    padding: 10px 0;
+    transition: color 0.3s ease;
 }
-.content{
-    position: relative;
+
+.toggle:hover {
+    color: #ea14a6; /* Cor do texto dos botões do Accordion ao passar o mouse */
+}
+
+.icon {
+    transition: transform 0.3s ease;
+    color: #fff200; /* Cor do ícone "plus" e "minus" */
+}
+
+.icon.fa-minus {
+    transform: rotate(180deg);
+}
+
+.content {
     font-size: 14px;
+    color: #555; /* Cor do texto dentro das caixas de conteúdo */
     text-align: justify;
-    line-height: 30px;
+    line-height: 24px;
     height: 0;
     overflow: hidden;
+    transition: all 0.5s ease;
 }
 
+/* Contact Section */
+.contact-prompt {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-prompt h3 {
+    color: #ff006a; /* Cor do título "Tem alguma dúvida ou precisa de mais informações?" */
+    margin-bottom: 10px;
+}
+
+.contact-prompt p {
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    background-color: #15e638; /* Cor de fundo do botão de contato */
+    color: rgb(255, 255, 255); /* Cor do texto do botão de contato */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  
+}
+
+.contact-button i {
+    margin-right: 10px;
+}
+
+.contact-button:hover {
+    background-color: #a1a81d; /* Cor de fundo do botão de contato ao passar o mouse */
+}
+
+/* Estilo para todos os links na página */
 
 
+a:visited {
+    color: #0248F7; /* Cor dos links após serem clicados */
+}
+
+a:hover {
+    color: #ea14a6; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo específico para links na seção FAQ */
+.faq-section a {
+    color: #00ff59; /* Cor inicial dos links na seção FAQ */
+}
+
+.faq-section a:visited {
+    color: #0248F7; /* Cor dos links após serem clicados na seção FAQ */
+}
+
+.faq-section a:hover {
+    color: #ea14a6; /* Cor dos links ao passar o mouse na seção FAQ */
+}
