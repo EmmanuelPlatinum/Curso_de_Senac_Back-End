@@ -1,14 +1,9 @@
+/* Reset CSS */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aquamarine;
-}
-.conteiner{
-    width: 45%;
-    min-width: 500px;
-    border: lpx solid white;
 
 body {
     background-color: #0D153D; /* Cor de fundo da página */
