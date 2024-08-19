@@ -51,7 +51,7 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
-    color: #0248f7; /* Cor inicial do texto dos botões do Accordion */
+    color: #0243f7; /* Cor inicial do texto dos botões do Accordion */
     font-weight: 500;
     border: none;
     outline: none;
@@ -66,7 +66,7 @@ body {
 
 .icon {
     transition: transform 0.3s ease;
-    color: #fff200; /* Cor do ícone "plus" e "minus" */
+    color: #ff3300; /* Cor do ícone "plus" e "minus" */
 }
 
 .icon.fa-minus {
